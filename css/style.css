@@ -1,0 +1,129 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#menu-topo ul{
+  /* Só aplica-se ao elemento ul
+  que está dentro do id menu-topo */
+  background-color: #333333;
+  list-style-type: none;
+  box-shadow: #bbbbbb 1px 3px 5px;
+  text-align: center;
+
+  /*Define uma largura máxima para a lista.
+  Útil para fazer menu na vertical.*/
+  /*width: 200px;*/
+}
+
+#menu-topo ul li{
+  /*Usado para mostrar o menu em linha*/
+  display: inline;
+}
+#menu-topo ul h2{
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+}
+#menu-topo img{
+  width: 100%;
+  right: auto;
+  height: 300px;
+}
+
+#menu-lateral{
+  float: left;
+}
+
+#menu-lateral ul{
+  margin-top:5px;
+  background-color: #BBBBBB;
+  list-style-type: none;
+  width: 150px;
+}
+
+#menu-lateral ul a{
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 5px 10px;
+}
+
+#menu-lateral ul a:hover{
+  background-color: #999999;
+  border-left: 3px solid #0B4C5F;
+}
+
+#conteudo{
+  float: left;
+  margin: 5px 20px;
+}
+
+.galeria .imagem{
+  float: left;
+  width: 250px;
+  height: 200px;
+}
+
+.galeria .imagem img{
+  width: 249px;
+  height: 199px;
+}
+
+.limpar{
+  clear: both;
+}
+
+.rodape{
+  margin: 0 auto;
+}
+
+.rodape .coluna {
+background-color: #F7BE81;
+width: 420px;
+height: 200px;
+float: left;
+text-align: justify;
+}
+
+.table {
+border-collapse: collapse;
+}
+
+.table, th, td {
+border: 1px solid black;
+}
+
+.login{
+  background-color:#FFCC99;
+  border: solid 5px #F7BE81;
+  width: 250px;
+  text-align: center;
+
+  /*20px para cima e para baixo*/
+  /*automático para as laterais*/
+  margin: 20px auto;
+  padding: 50px;
+  float: inherit;
+}
+
+/*formatar os inputs que tem a classe "campo" que estão dentro da classe "login".
+É possível utilizar vários seletores para formatar vários elementos
+com propriedades comuns
+*/
+.login .campo .login .botao{
+  border: solid 3px #0B173B;
+  /*"engorda" os elementos da classe campo*/
+  padding: 10px 5px;
+  width: 250px;c
+}
+
+/*aplica essas propriedades somente no botão*/
+.login .botao{
+  padding: 6px;
+  width: 100px;
+  background-color: #FFFFFF;
+  color: #000000;
+}
