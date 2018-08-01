@@ -127,3 +127,21 @@ com propriedades comuns
   background-color: #FFFFFF;
   color: #000000;
 }
+
+
+/*página de questões*/
+.img img{
+  height: 200px;
+}
+
+.fileira1, .fileira2{
+  float: left;
+  text-align: center;
+  border: solid 1px #ededed;
+  margin-right: 5px;
+}
+
+.limparfloat{
+  clear: left;
+
+}
