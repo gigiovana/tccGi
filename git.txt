@@ -1,0 +1,22 @@
+baixar o repositorio
+git clone https://github.com/gigiovana/tccGi.git
+
+----------------------------------
+configurar o email no if
+git config user.email "rafael.zottesso@ifpr.edu.br"
+
+
+---------------------------------
+depois de novas mudanças
+
+git add *
+
+git commit -m "msg"
+
+git push origin master
+
+
+-----------------------------------
+maquina que já tem o repositório
+
+git pull origin master
